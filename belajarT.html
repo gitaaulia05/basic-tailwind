@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"  class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./css/output.css">
+     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Profile </title>
+
+    <style type="text/tailwindcss">
+      #toggle:checked ~ label div.toggle-circle{
+        @apply translate-x-3;
+      }
+
+     </style>
+</head>
+<body class="dark:bg-slate-800 dark:text-slate-200">
+     
+     <section class="mb-10 bg-indigo-200">
+        <h2 class="text-3xl text-center">Spacing</h2>
+         <div class="m-12 bg-blue-400">margin</div>
+         <div class="py-8 bg-orange-300">padding</div>
+     </section>
+     <section class="mb-10 bg-green-200">
+        <h2 class="text-3xl text-center ">Sizing</h2>
+         <div class="w-32 h-32 text-3xl bg-sky-900">margin</div>
+        
+     </section>
+
+     <section class="font-inter max-w-3xl mx-auto">
+             <h1 class="mb-2 text-4xl">Profile Github <span class="bg-gradient-to-r from-indigo-500 to-rose-500 bg-clip-text text-transparent">UHUYY</span></h1>
+              <div   class="mb-2 text-lg">By <a href="#" class="text-slate-400">Gita Aulia Hafid</a> , 28 September 2023</div>
+
+              <p class="mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos quo cumque vero, veniam eveniet eaque pariatur. Voluptates iste aut repudiandae qui in quidem ducimus cum minima, natus, minus eum facere vel, a assumenda eveniet nostrum placeat rem odit quo labore ipsum cupiditate repellendus illum! Inventore vel porro natus unde at, laborum minus ipsam quasi ut in enim cum reiciendis repellendus voluptatem provident quas error quos? Dolore autem quae et ea, minus harum quaerat nisi aperiam non, magni facilis deserunt officia vitae, laudantium qui. Eos ducimus, saepe commodi ratione fugiat laborum tempore recusandae eius totam molestiae. Repellat porro cupiditate cumque!</p>
+
+              <blockquote class="mb-4 text-gray-500 font-thin italic"> "Voluptates iste aut repudiandae qui in quidem ducimus cum minima, natus, minus eum facere vel, a assumenda eveniet nostrum placeat rem odit quo labore ipsum cupiditate repellendus illum! Inventore vel porro natus unde at "</blockquote>
+
+              <p class="mb-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos quo cumque vero, veniam eveniet eaque pariatur. Voluptates iste aut repudiandae qui in quidem ducimus cum minima, natus, minus eum facere vel, a assumenda eveniet nostrum placeat rem odit quo labore ipsum cupiditate repellendus illum! Inventore vel porro natus unde at, laborum minus ipsam quasi ut in enim cum reiciendis repellendus voluptatem provident quas error quos? Dolore autem quae et ea, minus harum quaerat nisi aperiam non, magni facilis deserunt officia vitae, laudantium qui. Eos ducimus, saepe commodi ratione fugiat laborum tempore recusandae eius totam molestiae. Repellat porro cupiditate cumque!</p>
+     </section> 
+
+     <div class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] bg-fixed overflow-scroll" style="background-image: url('https://source.unsplash.com/1000x600?computer')">
+       <p class="p-5 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia temporibus rem earum ea, aut quo quos odit molestias sapiente, corporis voluptates facere suscipit autem. Distinctio error atque excepturi laborum consectetur modi temporibus eos laudantium quas itaque, dolores eligendi, voluptatem, a hic. Placeat repudiandae magnam nam ea sunt ipsum error soluta dolores quia ut, consequatur aut perspiciatis non totam ducimus ex debitis itaque impedit officia? Est ad delectus adipisci quisquam dicta vel accusantium at eligendi iure, suscipit fuga repellat reiciendis aliquid impedit explicabo quos, consequuntur a quibusdam dolore? Rem repellat dicta perspiciatis consequuntur magnam doloribus dolore deleniti ex laboriosam corrupti quia unde illum quis vitae veniam possimus reprehenderit expedita beatae pariatur minima, odit aperiam voluptatem? Fugit repudiandae labore sed vitae saepe odio amet incidunt voluptates dolorum nesciunt obcaecati molestias eos voluptate, accusantium debitis fugiat inventore iste omnis neque nostrum rem veritatis rerum? Eos, nihil eligendi provident saepe exercitationem quos dicta. Dolor tenetur quasi nisi consequatur numquam accusamus pariatur temporibus iusto amet atque? Facilis quaerat laborum aut eius, cumque praesentium placeat asne voluptatibus blanditiis dignissimos quam quod exercitationem minus esse odio quasi quas 
+       </p>
+    </div>
+
+
+     <div class="mt-32 mx-auto max-w-xl h-96  bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-400 overflow-hidden border-4 flex" style="background-image:url('./img/1.jpg')">
+        <div class="w-[200px] h-[200px] bg-white m-auto "></div>
+    </div>
+
+      <hr class="my-20">
+
+         <div class="flex justify-center">
+           <span class="text-sm text-slate-500 mr-2">Light</span>
+
+            <input type="checkbox" id="toggle" class="hidden">
+            <label for="toggle">
+              <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+                <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+              </div>
+            </label>
+
+           <span class="text-sm text-slate-500 ml-2">Dark</span>
+         </div>
+
+      <button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:hover:text-slate-900 dark:hover:bg-slate-100 ">Simpan </button>
+
+      <div class=" group max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-600 dark:hover:bg-slate-300">
+
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">Card</h5>
+
+        <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-black first-letter:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt quis necessitatibus dolores temporibus! Ut, provident ab similique voluptates nesciunt quam reiciendis voluptate eos sequi quo hic, qui voluptatibus quos impedit est ipsa nisi consectetur quas maiores consequatur itaque facilis, numquam mollitia. Enim ab doloremque, laudantium magnam quam iste asperiores nobis vitae quisquam veniam eius expedita dolorum delectus commodi, ad nesciunt, eaque atque quod dicta odio hic repudiandae autem doloribus odit. Beatae cupiditate odit facilis excepturi distinctio. Accusantium, similique magnam.</p>
+
+      </div>
+
+      <hr class="my-20">
+
+      <div class=" group max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter ">
+        <form>
+
+         <label for="email"> <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500">Email </span>
+          <input type="email"id="email" placeholder="Masukkan email" class="px-3 py-2 border shadow rounded w-full block text-sm outline-none placeholder:text-slate-400 focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer ">
+           <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email Tidak Valid</p>
+         </label>
+
+        </form>
+      </div>
+
+       <hr class="my-20">
+
+       <div class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-45  origin-top-left transition hover:bg-pink-500  "></div>
+
+       <div class="w-40 h-40 mx-auto mt-20 group">
+          <div class="w-full h-full  bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-right transition duration-1000"></div>
+       </div>
+    
+
+       <div class="w-40 h-40 mx-auto  shadow-lg bg-purple-700 mt-20 animate-goyang rounded-lg  "></div>
+
+       <hr class="my-20 border-t-4">
+
+       <div class="container mx-auto">
+        <div class="border rounded-lg shadow-lg p-10 relative">
+
+           <div class="w-10 h-10 bg-sky-400 rounded-full flex fixed bottom-5 right-5 cursor-pointer animate-bounce"><a href="#" class="text-lg m-auto ">↑</a></div>
+           <img  src="./img/1.jpg" width="150" class="float-left mr-3">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam mollitia corrupti quidem qui provident. Vero, neque! Error minima culpa natus eos labore at ratione? Sed quo vel, quos magni mollitia sapiente. Explicabo natus quaerat perferendis facilis corporis obcaecati, distinctio amet asperiores corrupti veniam. Eaque itaque modi obcaecati harum est aperiam sit, soluta, dignissimos molestias impedit ratione iure possimus consectetur temporibus facere mollitia distinctio. Natus cum minus maiores, impedit ipsum enim fugiat eveniet ipsa expedita quod neque ratione aliquid quidem provident dicta commodi minima dolorum. Eum, esse? Autem est dolorem, quod deserunt ullam, quibusdam in esse illo nisi a impedit corrupti?</p>
+      </div>
+      </div>
+
+      <div class="container mx-auto border rounded-lg shadow-lg p-10 mt-20 columns-3">
+        <img src="https://source.unsplash.com/600x400?coding">
+        <img src="https://source.unsplash.com/600x400?coding">
+        <img src="https://source.unsplash.com/600x400?coding">
+      </div>
+
+      
+      <hr class="my-20 border-t-4">
+
+    
+      <div class="container px-6 max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0" >
+        <div class="lg:p-12">
+
+       <h3 class="font-inter text-3xl font-bold text-slate-800 sm:text-4xl md:text-6xl">Gita's Portofolio</h3>
+       <img src="./img/2.jpg" class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object:center lg:hidden" width="400" height="400">
+       <h2 class="font-inter text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">Hello World</h2>
+       <p class="mt-4 text-slate-600 sm:text-xl sm:mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam vero illo autem perferendis explicabo iste. Molestias illo quaerat est doloribus iusto doloremque labore, commodi itaque aperiam incidunt ab illum alias.  
+       </p>
+       <div class="button sm:mt-4 sm:mb-5">
+        <a href="#" class="inline-block px-5 py-3 bg-slate-500 text-white rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm">Contact Me</a>
+       </div>
+      </div>
+
+       <div  class="hidden lg:flex  lg:w-1/2 bg-red-500">
+          <img class="object-cover rounded-l-3xl" src="./img/2.jpg"  width="800" height="800">
+       </div>
+      
+      </div>
+
+       <h2 class="mt-92 mb-10 text-center font-bold text-slate-800">Portofolio</h2>
+
+       <div class="port-card mx-auto px-6 sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
+
+          <div class="rounded-md shadow-lg overflow-hidden transition  ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay:150 mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+             <div class="text-img">
+              <img class="w-full hover:brightness-50 hover:duration-300" src="https://source.unsplash.com/600x400">
+              <span>hi</span>
+             </div>
+          
+            <div class="card px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-slate-700 ">Image Title</div>
+              <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo.</p>
+            </div>
+          </div>
+          <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72">
+            <img class="w-full" src="https://source.unsplash.com/600x400">
+            <div class="card px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-slate-700 ">Image Title</div>
+              <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo.</p>
+            </div>
+          </div>
+          <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:mb-0 sm:w-64  md:w-80 lg:w-72 ">
+            <img class="w-full" src="https://source.unsplash.com/600x400">
+            <div class="card px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-slate-700 ">Image Title</div>
+              <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo.</p>
+            </div>
+          </div>
+          
+       </div>
+   
+      
+      <hr class="my-20 border-t-4">
+
+      <div class="container mt-64 p-2  grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+
+        <h2 class="h-15 text-xl font-semibold text-slate-700 md:row-start-2 md:col-start-4 md:flex"> <span class="self-center">Gita's Projects</span></h2>
+        <div class="h-15 text-lg font-bold text-slate-500 md:row-start-2 md:col-start-2 md:flex"><span class="self-end">@Hallo Cuy</span></div>
+
+        <div class="group grid-card">
+          <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div>
+        </div>  
+        <div class="group grid-card md:col-start-3 ">
+             <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div>
+        </div>
+
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500 "> <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"> <img src="./img/3.jpg" class="bg-cover"></div> </div>
+
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500 ">  <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500 ">    <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-2 overflow-hidden group relative hover:scale-95 transition-all duration-500 ">  
+            <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-4 overflow-hidden group relative hover:scale-95 transition-all duration-500 ">    <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500 ">    <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500 ">    <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+        <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] md:col-start-3 overflow-hidden group relative hover:scale-95 transition-all duration-500 ">    <div class="w-full h-full bg-[url('./img/3.jpg')] bg-cover absolute group-hover:scale-125  transition-all duration-500"></div> </div>
+
+      </div>
+
+
+
+     <div class="mb-96"></div>
+
+
+      <script>
+        const checkbox = document.querySelector('#toggle');
+        const html = document.querySelector('html');
+
+        checkbox.addEventListener('click', function() {
+          checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+
+        });
+      </script>
+   
+</body>
+</html>
